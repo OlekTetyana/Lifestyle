@@ -1,0 +1,66 @@
+.container {
+  max-width: 906px;
+    margin: 0 auto;
+  }
+  
+header .container {
+    max-width: 556px;
+}
+  
+header .container .navigation {
+    margin-top: 67px;
+    margin-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+  
+header .container .navigation a {
+    text-decoration: none;
+    color: #7d7d7d;
+    font-size: 14px;
+    line-height: 19px;
+}
+  
+header .container .navigation a:hover {
+    color: #03a9f4;
+}
+  
+.flex-container{
+    display: flex;
+}
+.section-with-cards .wrapper-cards{
+    display: flex;
+}
+  
+.section-with-cards .wrapper-cards{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 65px;
+    row-gap: 130px;
+}
+  
+.section-with-cards .card{
+    width: 45%;
+}
+  
+.section-with-cards .card .wrapper-category {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    vertical-align: center;
+}
+.section-with-cards .card .wrapper-category a {
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+}
+  
+.section-with-cards .card .wrapper-content p {
+}
+*{
+    font-family: 'Ubuntu';
+}
+  
